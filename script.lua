@@ -1,1 +1,116 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v57=0;local v58;while true do if (v57==1) then return v5(v58);end if (v57==0) then v58={};for v67=(399 -(182 + 214)) -(2 -0) , #v8 do v6(v58,v0(v4(v1(v2(v8,v67,v67 + (4 -3) )),v1(v2(v9,((1 + 0) -0) + ((v67-(1359 -(794 + 564)))% #v9) ,1 + 0 + ((v67-1)% #v9) + 1 )))%256 ));end v57=1;end end end loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay/scripts/main/loadstringtest.lua"))();local v10=Instance.new(v7("\42\212\217\191\83\210\60\12\222","\121\183\171\218\54\188\123"));local v11=Instance.new(v7("\212\153\184\247\133","\146\235\217\154\224\52\81\106"));local v12=Instance.new(v7("\22\229\43\74\137\125\210\184\46","\66\128\83\62\197\28\176\221"));local v13=Instance.new(v7("\219\113\105\252\252\86\79\225","\142\56\42\147"));local v14=Instance.new(v7("\247\10\202\188\225\26\198\188\204\1","\163\111\178\200"));local v15=Instance.new(v7("\136\5\108\43\50\54\184\62","\221\76\47\68\64\88"));local v16=Instance.new(v7("\159\24\182\6\137\18\182","\203\125\206\114"));local v17=Instance.new(v7("\246\116\56\250\21\168\35\248","\163\61\123\149\103\198\70\138"));v10.Parent=game.Players.LocalPlayer:WaitForChild(v7("\229\17\67\251\170\3\239\201\220","\181\125\34\130\207\113\168\188"));v10.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v11.Name=v7("\95\250\111\193\92\26\87\113","\20\159\22\135\46\123\58");v11.Parent=v10;v11.BackgroundColor3=Color3.fromRGB(14 + 19 ,(51 -33) + 10 + 5 ,112 -79 );v11.Position=UDim2.new(0.290548503 + 0 ,0,0.246214837,(1798 -(473 + 238)) -(80 + 678 + 11 + 318) );v11.Size=UDim2.new((1113 -(332 + 781)) -0 ,451,0 + 0 ,(125 -45) + 196 );v12.Parent=v11;v12.BackgroundColor3=Color3.fromRGB(97,97,97);v12.Size=UDim2.new(0 + 0 ,451,0,50);v12.Font=Enum.Font.SourceSans;v12.Text=v7("\253\166\10\17\79\53\47\226\166\30","\150\195\115\49\60\76\92");v12.TextColor3=Color3.fromRGB(0,0 + (581 -(462 + 119)) ,0 + 0 );v12.TextSize=51;v13.Parent=v11;v14.Name=v7("\45\17\54\66\88","\110\121\83\33\51\160");v14.Parent=v11;v14.BackgroundColor3=Color3.fromRGB(97,219 -122 ,97);v14.Position=UDim2.new(0.277161866 + (1302 -(59 + 1243)) ,0,(2172.728260875 -(957 + 7)) -(53 + 1155) ,461 -(52 + (885 -476)) );v14.Size=UDim2.new(0 + 0 + 0 ,2018 -(1397 + 421) ,0,380 -(152 + 178) );v14.Font=Enum.Font.SourceSans;v14.Text=v7("\96\207\57\6\104\167\55\0\122","\35\135\124\69");v14.TextColor3=Color3.fromRGB(0 -0 ,0,1767 -(834 + 933) );v14.TextSize=(805 -595) -164 ;v15.Parent=v14;v16.Name=v7("\36\199\214","\79\162\175\100\35\184\135");v16.Parent=v11;v16.BackgroundColor3=Color3.fromRGB((2839 -1947) -((565 -404) + 634) ,66 + 31 ,183 -86 );v16.Position=UDim2.new(0.277161866 + 0 ,0 -0 ,0.409420282 -0 ,0 + 0 + 0 );v16.Size=UDim2.new((0 -0) -(0 -0) ,865 -((458 -224) + 431) ,0 -0 ,(1940 -(349 + 435)) -(2 + 27 + 1077) );v16.Font=Enum.Font.SourceSans;v16.Text=v7("\204\164\64\53\202\88\2\194","\135\225\25\21\130\29\80");v16.TextColor3=Color3.fromRGB(1852 -(526 + 1326) ,(1232 -(268 + 192)) -((1740 -1272) + (543 -(116 + 123))) ,0);v16.TextSize=14;v17.Parent=v16;local function v55()local v59=0;local v60;local v61;local v62;while true do if (v59==1) then v62=nil;while true do if (v60==(0 -0)) then local v68=0 + 0 ;while true do if (v68==(901 -(459 + 442))) then v61=Instance.new(v7("\175\127\38\16\203\241\142\145\121\53\5","\227\16\69\113\167\162\237"),v14);v62=v61.Parent.Parent.key;v68=1 + 0 ;end if (v68==1) then v60=1411 -(1313 + 97) ;break;end end end if (v60==(1 -0)) then v61.Parent.MouseButton1Click:Connect(function()if (v62.Text==correctkey) then local v70=0;local v71;while true do if ((677 -(606 + 71))==v70) then v71=0 -(1096 -(326 + 770)) ;while true do if (v71==(0 -(0 + 0))) then local v76=0;while true do if (v76==1) then v71=1 -0 ;break;end if (v76==0) then local v77=0;while true do if (v77==0) then print(v7("\47\175\151\51\20\15\180\197\10\20\21","\108\192\229\65\113"));v61.Parent.Parent.Visible=false;v77=1;end if (v77==1) then v76=1827 -(93 + 95 + (1948 -(149 + 161))) ;break;end end end end end if (((1617 -(1079 + 183)) -(71 + 280 + 3))==v71) then loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay2/scriptsnokey/main/scripts.lua"))();print(v7("\110\19\210\169\242\144\70","\61\102\177\202\151\227\53\198"));break;end end break;end end elseif (v62.Text=="") then v62.Text="";else local v73=0;local v74;local v75;while true do if (v73==0) then v74=0 -0 ;v75=nil;v73=1;end if (v73==1) then while true do if (v74==0) then v75=1466 -(1154 + 312) ;while true do if (v75==(2 -1)) then v62.Text="";break;end if (v75==(293 -(198 + 95))) then v62.Text=v7("\118\34\166\200\38\77\41\166\211\120\31\56\183\222\116\94\43\164\206\58\17","\63\76\197\167\84");wait(1230 -(984 + 245) );v75=1 + 0 + 0 ;end end break;end end break;end end end end);break;end end break;end if (v59==0) then v60=0 + 0 ;v61=nil;v59=1;end end end coroutine.wrap(v55)();local function v56()local v63=0 -0 ;local v64;local v65;while true do if (v63==1) then while true do if (v64==(0 -0)) then v65=Instance.new(v7("\143\220\142\31\12\10\160\193\132\14\20","\195\179\237\126\96\89"),v10);game:GetService(v7("\141\229\176\18\206\241\222\153\228\184","\222\145\209\96\186\148\172")):SetCore(v7("\54\162\119\120\43\168\109\117\3\174\122\125\17\174\118\114","\101\199\25\28"),{[v7("\210\249\50\243\227","\134\144\70\159")]=v7("\193\134\34\5\116\206","\134\195\118\78\49\151\215"),[v7("\116\1\100\202","\32\100\28\190")]=v7("\51\2\180\100\166\17\9\166\100\169\23\23\164\33\174\88\19\162\100\169\20\14\189\38\165\25\21\169","\120\103\205\68\202"),[v7("\13\39\100\17\36\32\61\120","\73\82\22\112\80")]=1443 -((1896 -(381 + 612)) + 458 + 52) ,[v7("\31\176\67\107\192\95\239","\93\197\55\31\175\49\222")]=v7("\250\231\19\28\148","\181\172\82\69")});v64=(1207 + 187) -(206 + 1187) ;end if (v64==(1172 -(414 + 757))) then setclipboard("https://discord.gg/f8yb39gMR8");break;end end break;end if ((0 -0)==v63) then local v66=0;while true do if (v66==0) then v64=0;v65=nil;v66=1;end if (1==v66) then v63=670 -(500 + 169) ;break;end end end end end coroutine.wrap(v56)();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay/scripts/main/loadstringtest.lua"))()
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+local ScreenGui = Instance.new("ScreenGui")
+local KeyFrame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Check = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local key = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local get = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+KeyFrame.Name = "KeyFrame"
+KeyFrame.Parent = ScreenGui
+KeyFrame.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+KeyFrame.Position = UDim2.new(0.290548503, 0, 0.246214837, 0)
+KeyFrame.Size = UDim2.new(0, 451, 0, 276)
+
+TextLabel.Parent = KeyFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+TextLabel.Size = UDim2.new(0, 451, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "key system"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 51.000
+
+UICorner.Parent = KeyFrame
+
+Check.Name = "Check"
+Check.Parent = KeyFrame
+Check.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+Check.Position = UDim2.new(0.277161866, 0, 0.728260875, 0)
+Check.Size = UDim2.new(0, 200, 0, 50)
+Check.Font = Enum.Font.SourceSans
+Check.Text = "CHECK KEY"
+Check.TextColor3 = Color3.fromRGB(0, 0, 0)
+Check.TextSize = 46.000
+
+get.Name = "Getkey"
+get.Parent = KeyFrame
+get.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+get.Position = UDim2.new(0.277161866, 0, 1, 0)
+get.Size = UDim2.new(0, 200, 0, 50)
+get.Font = Enum.Font.SourceSans
+get.Text = "GET KEY"
+get.TextColor3 = Color3.fromRGB(0, 0, 0)
+get.TextSize = 46.000
+
+UICorner_2.Parent = Check
+
+key.Name = "key"
+key.Parent = KeyFrame
+key.BackgroundColor3 = Color3.fromRGB(97, 97, 97)
+key.Position = UDim2.new(0.277161866, 0, 0.409420282, 0)
+key.Size = UDim2.new(0, 200, 0, 50)
+key.Font = Enum.Font.SourceSans
+key.Text = "KEY HERE"
+key.TextColor3 = Color3.fromRGB(0, 0, 0)
+key.TextSize = 14.000
+
+UICorner_3.Parent = key
+
+-- Scripts:
+
+
+	local script = Instance.new('LocalScript', get)
+		print("teleporting")
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(12603549790)
+	end)
+
+local function WTTF_fake_script() -- Check.LocalScript 
+	local script = Instance.new('LocalScript', Check)
+
+	local key = script.Parent.Parent.key
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if key.Text == correctkey then -- Make the "Key" whatever you wish.
+			print("Correct Key")
+			script.Parent.Parent.Visible = false
+			print("Success")
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay2/scriptsnokey/main/scripts.lua"))()	
+		elseif 
+			key.Text == "" then
+			key.Text = "" else
+			key.Text = "Incorrect, try again."
+			wait(1)
+			key.Text = ""
+		end
+	end)
+	
+end
+coroutine.wrap(WTTF_fake_script)()
+local function DBLZQV_fake_script() -- ScreenGui.Notification Script 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	--put this in starterplayerscripts or startergui
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "GETKEY"; --must be string
+		Text = "Click GETKEY to get KEY"; --must be string
+		Duration = 30; -- defaults to 5 secs if no duration is set
+		Button1 = "OKAY";
+	})
+	
+	setclipboard("https://discord.gg/f8yb39gMR8")
+end
+coroutine.wrap(DBLZQV_fake_script)()
