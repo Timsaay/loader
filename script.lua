@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay/scripts/main/loadstringtest.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Timsaay2/scriptsnokey/main/loader/key"))()
 -- Gui to Lua
 -- Version: 3.2
 
