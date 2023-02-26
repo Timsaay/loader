@@ -111,6 +111,6 @@ local function DBLZQV_fake_script() -- ScreenGui.Notification Script
 		Button1 = "OKAY";
 	})
 	
-	setclipboard("https://discord.gg/f8yb39gMR8")
+	
 end
 coroutine.wrap(DBLZQV_fake_script)()
